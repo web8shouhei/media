@@ -1,4 +1,8 @@
-var jquery = require('jquery')
+
+/* Tools | Plugins | Librarys */
+var $ = require('jquery')
+var hammerjs = require('hammerjs')
 var materialize_css = require('materialize-css')
-var materialize_sass = require('materialize-sass')
-var angular = require('angular')
+
+/* Custom javascripts */
+var material_custom = require('./material_custom.js')

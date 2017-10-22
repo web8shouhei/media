@@ -1,0 +1,28 @@
+/**
+ * ------------------------
+ * 05_theme.css
+ * ------------------------
+ */
+@import "01_foundation.scss";
+
+.t-color {
+  &--default {color: $text--color !important;}
+  &--primary {color: $primary--color !important;}
+  &--secondary {color: $secondary--color !important;}
+}
+
+/* font */
+.t-font{
+  &-size { /* font-size */
+    &--small{font-size: $default-font-size - 0.4; }
+    &--smaller{font-size: $default-font-size - 0.2; }
+    &--default{font-size: $default-font-size; }
+    &--larger{font-size: $default-font-size + 0.4; }
+    &--large{font-size: $default-font-size + 1; }
+  }
+  &-weight { /* font weight */
+  	&--light{font-weight: lighter;}
+  	&--normal{font-weight: normal;}
+  	&--bold{font-weight: bold;}
+  }
+}

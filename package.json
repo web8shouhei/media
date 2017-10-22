@@ -9,7 +9,8 @@
   "scripts": {
     "build-css": "node-sass --include-path scss webroot/css/scss/style.scss webroot/css/style.css",
     "watch-css": "node-sass --include-path scss webroot/css/scss/style.scss webroot/css/style.css -w",
-    "watch": "webpack --watch"
+    "watch": "gulp",
+    "build": "gulp subset"
   },
   "repository": {
     "type": "git",
@@ -31,13 +32,28 @@
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
     "babel-preset-es2015": "^6.24.1",
-    "browserify": "^14.4.0",
+    "browser-sync": "^2.18.13",
+    "browserify": "^14.5.0",
     "css-loader": "^0.28.7",
     "extract-text-webpack-plugin": "^3.0.1",
+    "font-awesome": "^4.7.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-css2txt": "^0.1.8",
+    "gulp-fontmin": "^0.7.4",
+    "gulp-pleeease": "^2.0.2",
+    "gulp-plumber": "^1.1.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0",
+    "hammerjs": "^2.0.8",
+    "jquery": "^3.2.1",
     "materialize-css": "^0.100.2",
     "materialize-sass": "^0.98.2",
+    "node-sass-package-importer": "^5.0.0-alpha.15",
+    "normalize.css": "^7.0.0",
     "sass-loader": "^6.0.6",
     "style-loader": "^0.19.0",
+    "vinyl-source-stream": "^1.1.0",
     "webpack": "^3.8.1"
   }
 }

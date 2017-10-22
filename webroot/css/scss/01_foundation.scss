@@ -1,0 +1,27 @@
+/**
+ * ------------------------
+ * 01_foundation.css
+ * ------------------------
+ */
+@import "~normalize.css";
+@import "~materialize-css";
+@import "~font-awesome";
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+
+/** color */
+$primary--color: #00bcd4;
+$secondary--color: #ffffff;
+$text--color: #424242;
+
+/** font */
+$default-font-size: 1.2rem;
+
+/** margin | padding */
+$margin: 0.5rem;
+$padding: 0.5rem;
+
+* {
+  font-family: 'Noto Sans Japanese', sans-serif;
+  color: $text--color;
+  letter-spacing: 0.04em;
+}
