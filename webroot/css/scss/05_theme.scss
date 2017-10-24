@@ -14,15 +14,19 @@
 /* font */
 .t-font{
   &-size { /* font-size */
-    &--small{font-size: $default-font-size - 0.4; }
-    &--smaller{font-size: $default-font-size - 0.2; }
-    &--default{font-size: $default-font-size; }
-    &--larger{font-size: $default-font-size + 0.4; }
-    &--large{font-size: $default-font-size + 1; }
+    &--small{font-size: $default-font-size - 0.4 !important; }
+    &--smaller{font-size: $default-font-size - 0.2 !important; }
+    &--default{font-size: $default-font-size !important; }
+    &--larger{font-size: $default-font-size + 0.4 !important; }
+    &--large{font-size: $default-font-size + 1 !important; }
+    &--3rem{font-size: 3rem !important;}
+    &--4rem{font-size: 4rem !important;}
+    &--5rem{font-size: 5rem !important;}
+    &--6rem{font-size: 6rem !important;}
   }
   &-weight { /* font weight */
-  	&--light{font-weight: lighter;}
-  	&--normal{font-weight: normal;}
-  	&--bold{font-weight: bold;}
+  	&--light{font-weight: lighter !important;}
+  	&--normal{font-weight: normal !important;}
+  	&--bold{font-weight: bold !important;}
   }
 }

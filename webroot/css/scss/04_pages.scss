@@ -3,3 +3,17 @@
  * 04_pages.css
  * ------------------------
  */
+@import "01_foundation.scss";
+@import "02_layout.scss";
+@import "05_theme.scss";
+
+.p-top-title {
+  @extend .l-display--inline-block;
+  @extend .t-font-size--larger;
+  @extend .l-p2;
+  @extend .l-mb2;
+  border-bottom: 2px solid #424242;
+
+  &--primary{@extend .t-color--primary};
+  &--pink{color: #e91e63 !important;}
+}

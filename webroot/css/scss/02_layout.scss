@@ -76,3 +76,9 @@
     &4{padding-right: $padding*4 !important;}
   }
 }
+
+.l-display {
+  &--inline{display: inline !important;}
+  &--inline-block{display: inline-block !important;}
+  &--block{display: block !important;}
+}
